@@ -5,3 +5,5 @@ matplotlib>=1.4.3
 pandas>=0.19
 streamlit
 pickle5>=0.0.12
+pickleshare==0.7.5
+
