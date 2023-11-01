@@ -40,7 +40,7 @@ def main():
         elif option=='Logistic Regression':
             st.success(classify(log_model.predict(inputs)))
         else:
-           st.success('the ',classify(svm.predict(inputs)))
+           st.success(classify(svm.predict(inputs)))
 
 
 if __name__=='__main__':
